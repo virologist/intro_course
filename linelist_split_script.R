@@ -1,3 +1,5 @@
+remotes::install_github("appliedepi/introexercises", dep = TRUE, force = TRUE)
+
 # convert single EVD linelist to multiple
 
 pacman::p_load(rio, here, lubridate, janitor, tidyverse)
